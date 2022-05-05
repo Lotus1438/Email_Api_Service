@@ -1,0 +1,404 @@
+2022-05-03T10:49:19.655767190 0.022546s notice: Recursively removing directory /home/dnauser/Desktop/email_api/rethinkdb_data/tmp
+2022-05-03T10:49:19.659939015 0.026718s notice: Initializing directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-03T10:49:19.660078942 0.026858s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/dnauser/Desktop/email_api/rethinkdb_data' did not already exist or is empty.)
+2022-05-03T10:49:19.660782254 0.027562s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-03T10:49:19.662379234 0.029160s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-03T10:49:19.662482314 0.029261s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-03T10:49:19.696386367 0.063166s info: Automatically using cache size of 6268 MB
+2022-05-03T10:49:19.698437341 0.065216s notice: Listening for intracluster connections on port 29015
+2022-05-03T10:49:19.702673593 0.069452s notice: Listening for client driver connections on port 28015
+2022-05-03T10:49:19.702718839 0.069497s notice: Listening for administrative HTTP connections on port 8080
+2022-05-03T10:49:19.702720150 0.069499s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-03T10:49:19.702721265 0.069500s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-03T10:49:19.702724258 0.069503s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-03T10:49:19.702726873 0.069505s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-03T10:49:19.702730657 0.069509s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-03T10:51:34.902844065 135.269623s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-03T10:51:34.902990194 135.269769s notice: Shutting down client connections...
+2022-05-03T10:51:34.903091642 135.269870s notice: All client connections closed.
+2022-05-03T10:51:34.903095100 135.269874s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-03T10:51:34.904610857 135.271389s notice: Storage engine shut down.
+2022-05-03T12:58:22.902749197 0.020660s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-03T12:58:22.905365659 0.023281s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-03T12:58:22.905509872 0.023421s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-03T12:58:22.918739993 0.036651s info: Automatically using cache size of 6020 MB
+2022-05-03T12:58:22.919119800 0.037030s notice: Listening for intracluster connections on port 29015
+2022-05-03T12:58:22.920714037 0.038625s notice: Listening for client driver connections on port 28015
+2022-05-03T12:58:22.920795788 0.038707s notice: Listening for administrative HTTP connections on port 8080
+2022-05-03T12:58:22.920797568 0.038708s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-03T12:58:22.920798818 0.038709s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-03T12:58:22.920802739 0.038713s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-03T12:58:22.920805602 0.038716s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-03T12:58:22.920808181 0.038719s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-03T13:23:18.163656422 1495.281567s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-03T13:23:18.163813634 1495.281724s notice: Shutting down client connections...
+2022-05-03T13:23:18.163869205 1495.281780s notice: All client connections closed.
+2022-05-03T13:23:18.163872303 1495.281783s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-03T13:23:18.164478877 1495.282390s notice: Storage engine shut down.
+2022-05-03T13:25:22.051709671 0.020677s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-03T13:25:22.053440491 0.022410s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-03T13:25:22.053520043 0.022487s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-03T13:25:22.070054850 0.039022s info: Automatically using cache size of 5585 MB
+2022-05-03T13:25:22.070778174 0.039746s notice: Listening for intracluster connections on port 29015
+2022-05-03T13:25:22.072837200 0.041805s notice: Listening for client driver connections on port 28015
+2022-05-03T13:25:22.072998324 0.041966s notice: Listening for administrative HTTP connections on port 8080
+2022-05-03T13:25:22.073000501 0.041968s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-03T13:25:22.073002133 0.041969s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-03T13:25:22.073003569 0.041971s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-03T13:25:22.073008940 0.041976s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-03T13:25:22.073012352 0.041980s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-03T13:42:47.065157021 1045.034125s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-03T13:42:47.065303364 1045.034271s notice: Shutting down client connections...
+2022-05-03T13:42:47.065405680 1045.034373s notice: All client connections closed.
+2022-05-03T13:42:47.065407353 1045.034375s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-03T13:42:47.065656187 1045.034624s notice: Storage engine shut down.
+2022-05-03T14:04:18.024065087 0.015483s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-03T14:04:18.025377464 0.016796s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-03T14:04:18.025431182 0.016849s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-03T14:04:18.035314060 0.026732s info: Automatically using cache size of 5569 MB
+2022-05-03T14:04:18.035707590 0.027125s notice: Listening for intracluster connections on port 29015
+2022-05-03T14:04:18.037513086 0.028931s notice: Listening for client driver connections on port 28015
+2022-05-03T14:04:18.037578748 0.028997s notice: Listening for administrative HTTP connections on port 8080
+2022-05-03T14:04:18.037580460 0.028998s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-03T14:04:18.037581804 0.028999s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-03T14:04:18.037585358 0.029003s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-03T14:04:18.037588369 0.029006s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-03T14:04:18.037590879 0.029008s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-03T14:04:23.170399663 5.161818s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-03T14:04:23.170528520 5.161946s notice: Shutting down client connections...
+2022-05-03T14:04:23.170613661 5.162031s notice: All client connections closed.
+2022-05-03T14:04:23.170617528 5.162035s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-03T14:04:23.171080568 5.162498s notice: Storage engine shut down.
+2022-05-03T14:34:41.240989612 0.022502s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-03T14:34:41.243599339 0.025117s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-03T14:34:41.243778037 0.025290s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-03T14:34:41.259414361 0.040927s info: Automatically using cache size of 5517 MB
+2022-05-03T14:34:41.260061230 0.041573s notice: Listening for intracluster connections on port 29015
+2022-05-03T14:34:41.262088341 0.043602s notice: Listening for client driver connections on port 28015
+2022-05-03T14:34:41.262290154 0.043802s notice: Listening for administrative HTTP connections on port 8080
+2022-05-03T14:34:41.262292588 0.043805s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-03T14:34:41.262295166 0.043807s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-03T14:34:41.262301737 0.043814s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-03T14:34:41.262308320 0.043820s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-03T14:34:41.262317123 0.043830s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-03T14:58:27.502120045 1426.283633s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-03T14:58:27.502450886 1426.283963s notice: Shutting down client connections...
+2022-05-03T14:58:27.502543256 1426.284055s notice: All client connections closed.
+2022-05-03T14:58:27.502547864 1426.284060s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-03T14:58:27.503145268 1426.284658s notice: Storage engine shut down.
+2022-05-03T14:58:50.144154254 0.007912s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-03T14:58:50.145344687 0.009103s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-03T14:58:50.145392336 0.009150s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-03T14:58:50.185410067 0.049168s info: Automatically using cache size of 5407 MB
+2022-05-03T14:58:50.186100881 0.049858s notice: Listening for intracluster connections on port 29015
+2022-05-03T14:58:50.188018008 0.051775s notice: Listening for client driver connections on port 28015
+2022-05-03T14:58:50.188079321 0.051837s notice: Listening for administrative HTTP connections on port 8080
+2022-05-03T14:58:50.188080565 0.051838s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.1, 10.100.100.163, ::1, fe80::7a42:ec11:3823:a4f9%3
+2022-05-03T14:58:50.188081800 0.051839s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.1, 10.100.100.163, ::1, fe80::7a42:ec11:3823:a4f9%3
+2022-05-03T14:58:50.188089040 0.051846s notice: Listening on http addresses: 127.0.0.1, 172.17.0.1, 10.100.100.163, ::1, fe80::7a42:ec11:3823:a4f9%3
+2022-05-03T14:58:50.188093199 0.051850s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-03T14:59:03.059045071 12.922803s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-03T14:59:03.059186907 12.922944s notice: Shutting down client connections...
+2022-05-03T14:59:03.059257541 12.923015s notice: All client connections closed.
+2022-05-03T14:59:03.059260525 12.923018s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-03T14:59:03.059743514 12.923501s notice: Storage engine shut down.
+2022-05-04T06:42:34.168714850 0.022204s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-04T06:42:34.170388578 0.023879s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-04T06:42:34.170430037 0.023919s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-04T06:42:34.182509581 0.035999s info: Automatically using cache size of 7270 MB
+2022-05-04T06:42:34.185013711 0.038503s notice: Listening for intracluster connections on port 29015
+2022-05-04T06:42:34.189428397 0.042918s notice: Listening for client driver connections on port 28015
+2022-05-04T06:42:34.189476273 0.042965s notice: Listening for administrative HTTP connections on port 8080
+2022-05-04T06:42:34.189477594 0.042967s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-04T06:42:34.189478662 0.042968s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-04T06:42:34.189483123 0.042972s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-04T06:42:34.189488896 0.042978s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-04T06:42:34.189491582 0.042981s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-04T06:45:48.159275635 194.012765s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-04T06:45:48.159428726 194.012918s notice: Shutting down client connections...
+2022-05-04T06:45:48.159488257 194.012978s notice: All client connections closed.
+2022-05-04T06:45:48.159491587 194.012981s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-04T06:45:48.167732952 194.021223s notice: Storage engine shut down.
+2022-05-04T06:47:06.485714676 0.020862s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-04T06:47:06.487374127 0.022522s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-04T06:47:06.487428240 0.022575s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-04T06:47:06.497267503 0.032415s info: Automatically using cache size of 7269 MB
+2022-05-04T06:47:06.497671593 0.032818s notice: Listening for intracluster connections on port 29015
+2022-05-04T06:47:06.499489768 0.034636s notice: Listening for client driver connections on port 28015
+2022-05-04T06:47:06.499579618 0.034726s notice: Listening for administrative HTTP connections on port 8080
+2022-05-04T06:47:06.499581338 0.034728s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-04T06:47:06.499582779 0.034729s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-04T06:47:06.499585897 0.034732s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-04T06:47:06.499588423 0.034735s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-04T06:47:06.499591672 0.034738s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-04T07:14:54.017427397 1667.552575s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-04T07:14:54.017647746 1667.552795s notice: Shutting down client connections...
+2022-05-04T07:14:54.017734203 1667.552881s notice: All client connections closed.
+2022-05-04T07:14:54.017738308 1667.552885s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-04T07:14:54.018202188 1667.553349s notice: Storage engine shut down.
+2022-05-04T07:15:25.527685431 0.021285s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-04T07:15:25.529012344 0.022612s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-04T07:15:25.529059031 0.022658s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-04T07:15:25.539405154 0.033004s info: Automatically using cache size of 6836 MB
+2022-05-04T07:15:25.539803951 0.033403s notice: Listening for intracluster connections on port 29015
+2022-05-04T07:15:25.541466059 0.035065s notice: Listening for client driver connections on port 28015
+2022-05-04T07:15:25.541507591 0.035106s notice: Listening for administrative HTTP connections on port 8080
+2022-05-04T07:15:25.541508980 0.035108s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-04T07:15:25.541510036 0.035109s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-04T07:15:25.541513008 0.035112s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-04T07:15:25.541516467 0.035115s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-04T07:15:25.541518993 0.035118s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-04T07:52:31.323168308 2225.816767s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-04T07:52:31.323346816 2225.816946s notice: Shutting down client connections...
+2022-05-04T07:52:31.323431052 2225.817030s notice: All client connections closed.
+2022-05-04T07:52:31.323435121 2225.817034s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-04T07:52:31.323872841 2225.817472s notice: Storage engine shut down.
+2022-05-04T07:52:38.267269894 0.021695s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-04T07:52:38.269122676 0.023548s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-04T07:52:38.269182147 0.023607s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-04T07:52:38.278861776 0.033286s info: Automatically using cache size of 6616 MB
+2022-05-04T07:52:38.279311826 0.033736s notice: Listening for intracluster connections on port 29015
+2022-05-04T07:52:38.281064983 0.035490s notice: Listening for client driver connections on port 28015
+2022-05-04T07:52:38.281102852 0.035527s notice: Listening for administrative HTTP connections on port 8080
+2022-05-04T07:52:38.281104096 0.035529s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-04T07:52:38.281105027 0.035530s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-04T07:52:38.281111297 0.035536s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-04T07:52:38.281114891 0.035539s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-04T07:52:38.281118231 0.035543s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-04T07:55:08.701097857 150.455523s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: Starting a new Raft election for term 1.
+2022-05-04T07:55:08.701372099 150.455797s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: Added replica on this server.
+2022-05-04T07:55:08.704458361 150.458883s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: This server is Raft leader for term 1. Latest log index is 0.
+2022-05-04T08:30:37.629544845 2279.383970s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-04T08:30:37.629731803 2279.384157s notice: Shutting down client connections...
+2022-05-04T08:30:37.629814253 2279.384239s notice: All client connections closed.
+2022-05-04T08:30:37.629816883 2279.384241s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-04T08:30:37.632080150 2279.386505s notice: Storage engine shut down.
+2022-05-04T08:43:13.576717147 0.021221s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-04T08:43:13.578468006 0.022972s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-04T08:43:13.578527495 0.023031s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-04T08:43:13.602490523 0.046994s info: Automatically using cache size of 6385 MB
+2022-05-04T08:43:13.602858857 0.047362s notice: Listening for intracluster connections on port 29015
+2022-05-04T08:43:13.611355292 0.055859s notice: Listening for client driver connections on port 28015
+2022-05-04T08:43:13.611417419 0.055921s notice: Listening for administrative HTTP connections on port 8080
+2022-05-04T08:43:13.611417824 0.055921s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-04T08:43:13.611425692 0.055929s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-04T08:43:13.611427743 0.055931s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-04T08:43:13.611436161 0.055939s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-04T08:43:13.611437942 0.055941s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-04T08:43:15.327325265 1.771829s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: Starting a new Raft election for term 2.
+2022-05-04T08:43:15.338304507 1.782808s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: This server is Raft leader for term 2. Latest log index is 2.
+2022-05-04T09:02:43.292478238 1169.736982s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-04T09:02:43.292648854 1169.737152s notice: Shutting down client connections...
+2022-05-04T09:02:43.292696916 1169.737200s notice: All client connections closed.
+2022-05-04T09:02:43.292699530 1169.737203s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-04T09:02:43.295223120 1169.739727s notice: Storage engine shut down.
+2022-05-04T12:22:34.308246399 0.028136s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-04T12:22:34.310497990 0.030388s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-04T12:22:34.310560183 0.030449s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-04T12:22:34.322249106 0.042138s info: Automatically using cache size of 5588 MB
+2022-05-04T12:22:34.322836709 0.042726s notice: Listening for intracluster connections on port 29015
+2022-05-04T12:22:34.333015935 0.052905s notice: Listening for client driver connections on port 28015
+2022-05-04T12:22:34.333110582 0.053000s notice: Listening for administrative HTTP connections on port 8080
+2022-05-04T12:22:34.333111290 0.053000s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-04T12:22:34.333116010 0.053005s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-04T12:22:34.333130982 0.053020s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-04T12:22:34.333132901 0.053022s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-04T12:22:34.333139359 0.053029s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-04T12:22:35.822930423 1.542820s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: Starting a new Raft election for term 3.
+2022-05-04T12:22:35.834735969 1.554626s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: This server is Raft leader for term 3. Latest log index is 5.
+2022-05-04T12:27:39.850237935 305.570127s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-04T12:27:39.850400384 305.570289s notice: Shutting down client connections...
+2022-05-04T12:27:39.850486791 305.570376s notice: All client connections closed.
+2022-05-04T12:27:39.850490709 305.570380s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-04T12:27:39.852712942 305.572602s notice: Storage engine shut down.
+2022-05-04T12:27:45.767676904 0.027896s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-04T12:27:45.770180466 0.030401s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-04T12:27:45.770291212 0.030510s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-04T12:27:45.785458413 0.045677s info: Automatically using cache size of 5593 MB
+2022-05-04T12:27:45.785868502 0.046087s notice: Listening for intracluster connections on port 29015
+2022-05-04T12:27:45.794930317 0.055149s notice: Listening for client driver connections on port 28015
+2022-05-04T12:27:45.794996618 0.055215s notice: Listening for administrative HTTP connections on port 8080
+2022-05-04T12:27:45.794999146 0.055218s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-04T12:27:45.795003804 0.055222s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-04T12:27:45.795006572 0.055225s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-04T12:27:45.795011275 0.055230s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-04T12:27:45.795013537 0.055232s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-04T12:27:46.819872587 1.080091s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: Starting a new Raft election for term 4.
+2022-05-04T12:27:46.831164595 1.091384s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: This server is Raft leader for term 4. Latest log index is 8.
+2022-05-04T12:28:26.350200767 40.610420s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-04T12:28:26.350371224 40.610590s notice: Shutting down client connections...
+2022-05-04T12:28:26.350450086 40.610669s notice: All client connections closed.
+2022-05-04T12:28:26.350453952 40.610672s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-04T12:28:26.353041947 40.613261s notice: Storage engine shut down.
+2022-05-04T14:50:24.923102463 0.020359s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-04T14:50:24.924658432 0.021916s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-04T14:50:24.924718337 0.021975s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-04T14:50:24.936279560 0.033536s info: Automatically using cache size of 5325 MB
+2022-05-04T14:50:24.936639009 0.033895s notice: Listening for intracluster connections on port 29015
+2022-05-04T14:50:24.946154836 0.043411s notice: Listening for client driver connections on port 28015
+2022-05-04T14:50:24.946255240 0.043512s notice: Listening for administrative HTTP connections on port 8080
+2022-05-04T14:50:24.946255869 0.043512s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-04T14:50:24.946260948 0.043517s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-04T14:50:24.946273159 0.043529s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-04T14:50:24.946275538 0.043532s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-04T14:50:24.946282881 0.043539s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-04T14:50:26.646819704 1.744076s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: Starting a new Raft election for term 5.
+2022-05-04T14:50:26.657368796 1.754625s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: This server is Raft leader for term 5. Latest log index is 11.
+2022-05-05T07:59:53.116590640 0.008571s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-05T07:59:53.118117560 0.010099s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-05T07:59:53.118168531 0.010148s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-05T07:59:53.146534696 0.038515s info: Automatically using cache size of 6499 MB
+2022-05-05T07:59:53.146891637 0.038872s notice: Listening for intracluster connections on port 29015
+2022-05-05T07:59:53.158098868 0.050079s notice: Listening for client driver connections on port 28015
+2022-05-05T07:59:53.158185273 0.050165s notice: Listening for administrative HTTP connections on port 8080
+2022-05-05T07:59:53.158185765 0.050167s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-05T07:59:53.158189547 0.050169s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-05T07:59:53.158197687 0.050178s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-05T07:59:53.158199108 0.050179s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-05T07:59:53.158206621 0.050187s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-05T07:59:54.295868525 1.187849s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: Starting a new Raft election for term 6.
+2022-05-05T07:59:54.313092140 1.205072s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: This server is Raft leader for term 6. Latest log index is 14.
+2022-05-05T07:59:54.739862679 1.631843s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-05T07:59:54.739943842 1.631924s notice: Shutting down client connections...
+2022-05-05T07:59:54.739973464 1.631953s notice: All client connections closed.
+2022-05-05T07:59:54.739974690 1.631955s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-05T07:59:54.741158714 1.633139s notice: Storage engine shut down.
+2022-05-05T09:59:39.426048662 0.014465s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-05T09:59:39.427689708 0.016107s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-05T09:59:39.427772996 0.016189s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-05T09:59:39.438822221 0.027239s info: Automatically using cache size of 6262 MB
+2022-05-05T09:59:39.439203653 0.027620s notice: Listening for intracluster connections on port 29015
+2022-05-05T09:59:39.449558405 0.037975s notice: Listening for client driver connections on port 28015
+2022-05-05T09:59:39.449679393 0.038096s notice: Listening for administrative HTTP connections on port 8080
+2022-05-05T09:59:39.449682025 0.038098s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-05T09:59:39.449687642 0.038104s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-05T09:59:39.449735360 0.038151s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-05T09:59:39.449738010 0.038154s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-05T09:59:39.449752408 0.038168s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-05T09:59:41.067959012 1.656375s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: Starting a new Raft election for term 7.
+2022-05-05T09:59:41.086506438 1.674923s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: This server is Raft leader for term 7. Latest log index is 17.
+2022-05-05T09:59:59.372498450 19.960915s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-05T09:59:59.372701831 19.961118s notice: Shutting down client connections...
+2022-05-05T09:59:59.372782783 19.961199s notice: All client connections closed.
+2022-05-05T09:59:59.372786000 19.961202s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-05T09:59:59.376350848 19.964768s notice: Storage engine shut down.
+2022-05-05T10:35:46.554073657 0.020793s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-05T10:35:46.555697608 0.022418s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-05T10:35:46.555755053 0.022474s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-05T10:35:46.566420978 0.033140s info: Automatically using cache size of 6053 MB
+2022-05-05T10:35:46.567064070 0.033783s notice: Listening for intracluster connections on port 29015
+2022-05-05T10:35:46.577026416 0.043746s notice: Listening for client driver connections on port 28015
+2022-05-05T10:35:46.577153365 0.043873s notice: Listening for administrative HTTP connections on port 8080
+2022-05-05T10:35:46.577154185 0.043873s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-05T10:35:46.577160575 0.043880s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-05T10:35:46.577174962 0.043894s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-05T10:35:46.577176905 0.043896s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-05T10:35:46.577183245 0.043902s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-05T10:35:47.730653708 1.197373s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: Starting a new Raft election for term 8.
+2022-05-05T10:35:47.733933919 1.200653s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: This server is Raft leader for term 8. Latest log index is 20.
+2022-05-05T10:36:03.356021706 16.822741s notice: Removing file /home/dnauser/Desktop/email_api/rethinkdb_data/01a08d4b-83b3-4142-a202-4a190b0aa1c7
+2022-05-05T10:36:03.356031706 16.822751s info: Table 01a08d4b-83b3-4142-a202-4a190b0aa1c7: Deleted the table.
+2022-05-05T10:36:13.420477802 26.887197s info: Table e9bef5de-dfba-4f06-85ec-f7a92aab357a: Starting a new Raft election for term 1.
+2022-05-05T10:36:13.420610635 26.887330s info: Table e9bef5de-dfba-4f06-85ec-f7a92aab357a: Added replica on this server.
+2022-05-05T10:36:13.432027023 26.898746s info: Table e9bef5de-dfba-4f06-85ec-f7a92aab357a: This server is Raft leader for term 1. Latest log index is 0.
+2022-05-05T10:39:48.680991261 242.147711s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-05T10:39:48.681163831 242.147883s notice: Shutting down client connections...
+2022-05-05T10:39:48.681260254 242.147979s notice: All client connections closed.
+2022-05-05T10:39:48.681263497 242.147982s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-05T10:39:48.683716300 242.150436s notice: Storage engine shut down.
+2022-05-05T11:11:02.306680935 0.035011s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-05T11:11:02.308996424 0.037327s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-05T11:11:02.309081473 0.037411s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-05T11:11:02.331747526 0.060077s info: Automatically using cache size of 5970 MB
+2022-05-05T11:11:02.333177744 0.061507s error: TCP socket creation failed for port 29015: Address already in use.
+2022-05-05T11:11:27.281477084 0.012993s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-05T11:11:27.283027517 0.014545s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-05T11:11:27.283077315 0.014593s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-05T11:11:27.292877952 0.024394s info: Automatically using cache size of 5983 MB
+2022-05-05T11:11:27.293527836 0.025044s notice: Listening for intracluster connections on port 29015
+2022-05-05T11:11:27.304881772 0.036397s notice: Listening for client driver connections on port 28015
+2022-05-05T11:11:27.304944993 0.036461s notice: Listening for administrative HTTP connections on port 8080
+2022-05-05T11:11:27.304945401 0.036461s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-05T11:11:27.304947278 0.036463s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-05T11:11:27.304958511 0.036474s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-05T11:11:27.304962054 0.036478s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-05T11:11:27.304969134 0.036485s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-05T11:11:28.428837427 1.160353s info: Table e9bef5de-dfba-4f06-85ec-f7a92aab357a: Starting a new Raft election for term 2.
+2022-05-05T11:11:28.449913967 1.181430s info: Table e9bef5de-dfba-4f06-85ec-f7a92aab357a: This server is Raft leader for term 2. Latest log index is 2.
+2022-05-05T11:13:30.494313273 123.225829s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-05T11:13:30.494398029 123.225914s notice: Shutting down client connections...
+2022-05-05T11:13:30.494456318 123.225972s notice: All client connections closed.
+2022-05-05T11:13:30.494457831 123.225973s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-05T11:13:30.495897264 123.227413s notice: Storage engine shut down.
+2022-05-05T11:15:24.554842917 0.022952s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-05T11:15:24.556469170 0.024579s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-05T11:15:24.556523798 0.024632s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-05T11:15:24.574835217 0.042944s info: Automatically using cache size of 6001 MB
+2022-05-05T11:15:24.575201033 0.043310s notice: Listening for intracluster connections on port 29015
+2022-05-05T11:15:24.594403065 0.062512s notice: Listening for client driver connections on port 28015
+2022-05-05T11:15:24.594485670 0.062594s notice: Listening for administrative HTTP connections on port 8080
+2022-05-05T11:15:24.594504160 0.062613s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-05T11:15:24.594506699 0.062615s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-05T11:15:24.594511339 0.062620s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-05T11:15:24.594522674 0.062631s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-05T11:15:24.594526933 0.062636s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-05T11:15:25.892014660 1.360124s info: Table e9bef5de-dfba-4f06-85ec-f7a92aab357a: Starting a new Raft election for term 3.
+2022-05-05T11:15:25.908276018 1.376385s info: Table e9bef5de-dfba-4f06-85ec-f7a92aab357a: This server is Raft leader for term 3. Latest log index is 5.
+2022-05-05T11:15:43.465484387 18.933593s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-05T11:15:43.465664842 18.933774s notice: Shutting down client connections...
+2022-05-05T11:15:43.465742064 18.933851s notice: All client connections closed.
+2022-05-05T11:15:43.465745017 18.933854s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-05T11:15:43.469287331 18.937397s notice: Storage engine shut down.
+2022-05-05T11:15:48.893451860 0.013944s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-05T11:15:48.894894541 0.015387s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-05T11:15:48.894944071 0.015436s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-05T11:15:48.906639369 0.027131s info: Automatically using cache size of 6013 MB
+2022-05-05T11:15:48.907157629 0.027650s notice: Listening for intracluster connections on port 29015
+2022-05-05T11:15:48.919022409 0.039515s notice: Listening for client driver connections on port 28015
+2022-05-05T11:15:48.919332074 0.039824s notice: Listening for administrative HTTP connections on port 8080
+2022-05-05T11:15:48.919333765 0.039826s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-05T11:15:48.919344517 0.039836s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-05T11:15:48.919384401 0.039876s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-05T11:15:48.919388158 0.039880s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-05T11:15:48.919398666 0.039890s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-05T11:15:50.306635760 1.427128s info: Table e9bef5de-dfba-4f06-85ec-f7a92aab357a: Starting a new Raft election for term 4.
+2022-05-05T11:15:50.319150911 1.439643s info: Table e9bef5de-dfba-4f06-85ec-f7a92aab357a: This server is Raft leader for term 4. Latest log index is 8.
+2022-05-05T11:36:32.113411163 1243.233904s info: Table ccbd73cb-3c26-46cd-bbef-16e4d41c911a: Starting a new Raft election for term 1.
+2022-05-05T11:36:32.113748454 1243.234240s info: Table ccbd73cb-3c26-46cd-bbef-16e4d41c911a: Added replica on this server.
+2022-05-05T11:36:32.117496073 1243.237988s info: Table ccbd73cb-3c26-46cd-bbef-16e4d41c911a: This server is Raft leader for term 1. Latest log index is 0.
+2022-05-05T11:41:20.079653254 1531.200145s info: Table 00376c6a-b6ad-4da5-9710-431b47d66a46: Starting a new Raft election for term 1.
+2022-05-05T11:41:20.079935684 1531.200427s info: Table 00376c6a-b6ad-4da5-9710-431b47d66a46: Added replica on this server.
+2022-05-05T11:41:20.082893710 1531.203385s info: Table 00376c6a-b6ad-4da5-9710-431b47d66a46: This server is Raft leader for term 1. Latest log index is 0.
+2022-05-05T11:52:48.736045452 2219.856537s notice: Removing file /home/dnauser/Desktop/email_api/rethinkdb_data/00376c6a-b6ad-4da5-9710-431b47d66a46
+2022-05-05T11:52:48.736061753 2219.856553s info: Table 00376c6a-b6ad-4da5-9710-431b47d66a46: Deleted the table.
+2022-05-05T11:52:48.747799901 2219.868292s notice: Removing file /home/dnauser/Desktop/email_api/rethinkdb_data/ccbd73cb-3c26-46cd-bbef-16e4d41c911a
+2022-05-05T11:52:48.747805984 2219.868298s info: Table ccbd73cb-3c26-46cd-bbef-16e4d41c911a: Deleted the table.
+2022-05-05T11:52:48.752392637 2219.872884s notice: Removing file /home/dnauser/Desktop/email_api/rethinkdb_data/e9bef5de-dfba-4f06-85ec-f7a92aab357a
+2022-05-05T11:52:48.752397989 2219.872890s info: Table e9bef5de-dfba-4f06-85ec-f7a92aab357a: Deleted the table.
+2022-05-05T11:53:55.228308520 2286.348800s info: Table c2a407d9-5e61-4e1b-80cb-d20f54ff2ed5: Starting a new Raft election for term 1.
+2022-05-05T11:53:55.228525266 2286.349017s info: Table c2a407d9-5e61-4e1b-80cb-d20f54ff2ed5: Added replica on this server.
+2022-05-05T11:53:55.231518699 2286.352010s info: Table c2a407d9-5e61-4e1b-80cb-d20f54ff2ed5: This server is Raft leader for term 1. Latest log index is 0.
+2022-05-05T12:18:22.132208134 3753.252700s info: Table 40878b67-dc80-499a-96c7-cb62ae8b0076: Starting a new Raft election for term 1.
+2022-05-05T12:18:22.132407266 3753.252899s info: Table 40878b67-dc80-499a-96c7-cb62ae8b0076: Added replica on this server.
+2022-05-05T12:18:22.135281308 3753.255773s info: Table 40878b67-dc80-499a-96c7-cb62ae8b0076: This server is Raft leader for term 1. Latest log index is 0.
+2022-05-05T12:19:15.308603983 3806.429096s notice: Removing file /home/dnauser/Desktop/email_api/rethinkdb_data/40878b67-dc80-499a-96c7-cb62ae8b0076
+2022-05-05T12:19:15.308608748 3806.429100s info: Table 40878b67-dc80-499a-96c7-cb62ae8b0076: Deleted the table.
+2022-05-05T13:21:37.307361064 7548.427853s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-05-05T13:21:37.307541258 7548.428033s notice: Shutting down client connections...
+2022-05-05T13:21:37.310087188 7548.430579s notice: All client connections closed.
+2022-05-05T13:21:37.310099034 7548.430591s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-05-05T13:21:37.312909936 7548.433402s notice: Storage engine shut down.
+2022-05-05T13:21:58.395007615 0.020473s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-05-05T13:21:58.397317542 0.022784s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-05-05T13:21:58.397371880 0.022837s notice: Loading data from directory /home/dnauser/Desktop/email_api/rethinkdb_data
+2022-05-05T13:21:58.407480128 0.032945s info: Automatically using cache size of 6371 MB
+2022-05-05T13:21:58.407821631 0.033287s notice: Listening for intracluster connections on port 29015
+2022-05-05T13:21:58.418899775 0.044365s notice: Listening for client driver connections on port 28015
+2022-05-05T13:21:58.419018048 0.044483s notice: Listening for administrative HTTP connections on port 8080
+2022-05-05T13:21:58.419031433 0.044497s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-05-05T13:21:58.419034785 0.044500s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-05-05T13:21:58.419036700 0.044502s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-05-05T13:21:58.419050446 0.044516s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-05-05T13:21:58.419054427 0.044519s notice: Server ready, "pop_os_4o8" 3bcf0c5a-a436-4fe6-a3c1-049b5d0e4c9f
+2022-05-05T13:21:59.662940577 1.288406s info: Table c2a407d9-5e61-4e1b-80cb-d20f54ff2ed5: Starting a new Raft election for term 2.
+2022-05-05T13:21:59.691814893 1.317280s info: Table c2a407d9-5e61-4e1b-80cb-d20f54ff2ed5: This server is Raft leader for term 2. Latest log index is 3.
