@@ -15,9 +15,6 @@ export const createUser = (req, res) => {
     .table(tableName)
     .insert(user)
     .run(req._rdb)
-    // .then((cursor) => cursor.toArray())
-    // .then((result) => {})
-    // .catch((error) => console.log(error));
 
   let data = {
     success: true,
@@ -30,9 +27,8 @@ export const createUser = (req, res) => {
 export const getAllUsers = (req, res) => {
   r.db(databaseName)
     .table(tableName)
-    // .orderBy(desc("id"))
+    .orderBy(r.desc("id"))
     .run(req._rdb)
-    // .then((cursor) => cursor.toArray())
     .then((result) => {
       res.json(result);
     })
@@ -64,18 +60,14 @@ export const updateUser = (req, res) => {
       email: req.body.email,
       password: req.body.password,
     })
-    .run(req._rdb)
-    // .then((cursor) => cursor.toArray())
-    .then((result) => {
-      res.send(result);
-    })
-    .catch((error) => console.log(error));
+    .run()
 
   let data = {
     success: true,
     message: "User successfully updated",
   };
   res.json(data);
+  console.log(data);
 };
 
 //delete user
@@ -87,11 +79,6 @@ export const deleteUser = (req, res) => {
     .get(user_id)
     .delete()
     .run(req._rdb)
-    // .then((cursor) => cursor.toArray())
-    // .then((result) => {
-    //   res.send(result);
-    // })
-    // .catch((error) => console.log(error));
 
   let data = {
     success: true,
