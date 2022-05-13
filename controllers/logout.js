@@ -1,15 +1,10 @@
-// import jwt from 'jsonwebtoken';
+import cookieParser from "cookie-parser";
+import express from "express";
 
-// export const logoutUser = (req, res) => {
-//     let user = {
-//         email: req.body.email,
-//         password: req.body.password,
-//       };
+const app = express();
+app.use(cookieParser());
 
-//       if (user) {
-//     refreshToken = refreshTokens.filter(token => t !== token);
-//     console.log(refreshToken);
-//       }
-
-//     res.send("Logout successful");
-// };
+export const logoutUser = (req, res) => {
+  res.clearCookie("access_token");
+  res.send("Logout Successful");
+};

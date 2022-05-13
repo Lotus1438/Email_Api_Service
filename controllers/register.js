@@ -16,7 +16,7 @@ export const registerUser = (req, res) => {
 
   let data = {
     success: true,
-    message: "User successfully added",
+    message: `User '${user.first_name}' is registered successfully!`,
   };
   res.json(data);
 };
@@ -31,4 +31,35 @@ export const getAllUsers = (req, res) => {
       res.json(result);
     })
     .catch((error) => console.log(error));
+};
+
+//get user by id
+export const getUserById = (req, res) => {
+  let user_id = req.params.user_id;
+
+  r.db(databaseName)
+    .table(tableName)
+    .get(user_id)
+    .run(req._rdb)
+    .then((result) => {
+      res.json(result);
+    })
+    .catch((error) => console.log(error));
+};
+
+//delete user
+export const deleteUser = (req, res) => {
+  let user_id = req.params.user_id;
+
+  r.db(databaseName)
+    .table(tableName)
+    .get(user_id)
+    .delete()
+    .run(req._rdb)
+
+  let data = {
+    success: true,
+    message: "User successfully deleted",
+  };
+  res.json(data);
 };
