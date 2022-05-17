@@ -20,6 +20,8 @@
     "express": "^4.18.1",
     "express-generator": "^4.16.1",
     "express-jwt": "^7.6.2",
+    "express-jwt-authz": "^2.4.1",
+    "express-oauth2-jwt-bearer": "^1.1.0",
     "express-session": "^1.17.2",
     "jsonwebtoken": "^8.5.1",
     "rethinkdb": "^2.4.2",

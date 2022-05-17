@@ -35,17 +35,9 @@ export const loginUser = async (req, res) => {
     );
     res.cookie("access_token", accessToken, { httpOnly: true });
     res.send("Logged in successfuly");
-    // res.redirect('/users');
   } else {
-    res.send("Email or Password is incorrect");
+    res.send("Unauthorized User");
   }
-  // return res.redirect('/users')
-  // let user = {
-  //   email: req.body.email,
-  //   password: req.body.password,
-  // };
-  // const accessToken = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET)
-  // res.json({accessToken: accessToken})
 };
 
 //get all users

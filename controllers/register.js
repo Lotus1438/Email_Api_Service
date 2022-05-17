@@ -8,15 +8,22 @@ export const registerUser = (req, res) => {
   let user = {
     first_name: req.body.first_name,
     last_name: req.body.last_name,
+    contact_number: req.body.contacr_number,
+    birthdate: req.body.birthdate,
     email: req.body.email,
+    address: req.body.address,
     password: req.body.password,
+    role_id: req.body.role_id,
   };
 
-  r.db(databaseName).table(tableName).insert(user).run(req._rdb);
+  r.db(databaseName)
+  .table(tableName)
+  .insert(req.body)
+  .run(req._rdb);
 
   let data = {
     success: true,
-    message: `User '${user.first_name}' is registered successfully!`,
+    message: `User '${user.email}' is registered successfully!`,
   };
   res.json(data);
 };
