@@ -1,6 +1,6 @@
-import {  createRethinkClient} from "../lib/rethink.js"
 import cookieParser from "cookie-parser";
 import express from "express";
+import { create } from "../model/index.js";
 
 const app = express();
 app.use(cookieParser());
@@ -9,22 +9,20 @@ const accessTokenSecret = "youraccesstokensecret";
 
 var databaseName = "mydb";
 var tableName = "user_roles";
-const r = createRethinkClient()
 
 //create
-export const createUserRole = (req, res) => {
-    let role = {
+export const createUserRole = async (req, res) => {
+    let insert_role = {
         role: req.body.role,
         priviledges: {
+          has_read_access: req.body.has_read_access,
             has_add_access: req.body.has_add_access,
             has_edit_access: req.body.has_edit_access,
             has_delete_access: req.body.has_delete_access,
         }
     }
-        r.db(databaseName)
-    .table(tableName)
-    .insert(role)
-    .run(req._rdb)
+
+    await create(databaseName, tableName, insert_role)
 
   let data = {
     success: true,

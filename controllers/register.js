@@ -1,10 +1,12 @@
 import { createRethinkClient } from "../lib/rethink.js";
+import { create, getAll, getById, deleteById, getByFilter } from "../model/index.js";
 
 var databaseName = "mydb";
 var tableName = "users";
 const r = createRethinkClient();
 
-export const registerUser = (req, res) => {
+//register
+export const registerUser = async (req, res) => {
   let user = {
     first_name: req.body.first_name,
     last_name: req.body.last_name,
@@ -16,10 +18,7 @@ export const registerUser = (req, res) => {
     role_id: req.body.role_id,
   };
 
-  r.db(databaseName)
-  .table(tableName)
-  .insert(req.body)
-  .run(req._rdb);
+  await create(databaseName, tableName, user)
 
   let data = {
     success: true,
@@ -29,44 +28,36 @@ export const registerUser = (req, res) => {
 };
 
 //get all users
-export const getAllUsers = (req, res) => {
-  r.db(databaseName)
-    .table(tableName)
-    .orderBy(r.desc("id"))
-    .run(req._rdb)
-    .then((result) => {
-      res.json(result);
-    })
-    .catch((error) => console.log(error));
+export const getAllUsers = async (req, res) => {
+  const users = await getAll(databaseName, tableName)
+  res.json(users)
 };
 
 //get user by id
-export const getUserById = (req, res) => {
+export const getUserById = async (req, res) => {
   let user_id = req.params.user_id;
-
-  r.db(databaseName)
-    .table(tableName)
-    .get(user_id)
-    .run(req._rdb)
-    .then((result) => {
-      res.json(result);
-    })
-    .catch((error) => console.log(error));
+  const userById = await getById(databaseName, tableName, user_id)
+  res.json(userById)
 };
 
 //delete user
-export const deleteUser = (req, res) => {
+export const deleteUser = async (req, res) => {
   let user_id = req.params.user_id;
-
-  r.db(databaseName)
-    .table(tableName)
-    .get(user_id)
-    .delete()
-    .run(req._rdb)
-
+  const delete_user = await deleteById(databaseName, tableName, user_id)
   let data = {
     success: true,
     message: "User successfully deleted",
   };
   res.json(data);
 };
+
+//filter
+export const filterUser = async (req, res) => {
+  const filter = await getByFilter(databaseName, tableName, req.body)
+  let data = {
+    filter,
+    success: true,
+    message: "Filtered!",
+  };
+  res.json(data);
+}

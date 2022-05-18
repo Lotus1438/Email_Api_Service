@@ -1,11 +1,8 @@
-import express from 'express';
-import {loginUser, getAllUsers } from '../controllers/login.js';
-import { cookieJwtAuth } from '../middleware/cookieJwtAuth.js';
+import express from "express";
+import { loginUser } from "../controllers/login.js";
 
 const router = express.Router();
 
-router.post('/', loginUser);
-router.get('/',cookieJwtAuth, getAllUsers);
-
+router.post("/", loginUser);
 
 export default router;

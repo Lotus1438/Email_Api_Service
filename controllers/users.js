@@ -1,8 +1,13 @@
 import cookieParser from "cookie-parser";
 import express from "express";
-import jwt from "jsonwebtoken";
-import { createUserModel, getAllUsersModel, getUserByIdModel, updateUserModel, deleteUserModel, filterUserModel } from "../model/users.model.js";
-import {  createRethinkClient} from "../lib/rethink.js"
+import {
+  create,
+  getAll,
+  getById,
+  updateById,
+  deleteById,
+  getByFilter,
+} from "../model/index.js";
 
 const app = express();
 app.use(cookieParser());
@@ -13,62 +18,88 @@ var tableName = "users";
 
 //create
 export const createUser = async (req, res) => {
-  const insert_params = {
+  const insert_user = {
     email: req.body.email,
-    password: req.body.password
-    }
-  await createUserModel(databaseName, tableName, insert_params)
-
-  let data = {
-    success: true,
-    message: "User successfully added",
+    password: req.body.password,
   };
-  res.json(data);
+  const { inserted } = await create(databaseName, tableName, insert_user);
+  res.json(
+    inserted
+      ? {
+          success: true,
+          message: "User successfully added",
+        }
+      : {
+          success: false,
+          message: "No User created",
+        }
+  );
 };
 
 //get all users
-export const getAllUsers = async(req, res) => {
-   const users = await getAllUsersModel(databaseName,tableName)
-   res.json(users)
+export const getAllUsers = async (req, res) => {
+  const users = await getAll(databaseName, tableName);
+  res.json(users);
 };
 
 //get user by id
-export const getUserById = async(req, res) => {
+export const getUserById = async (req, res) => {
   let user_id = req.params.user_id;
-  const userById = await getUserByIdModel(databaseName, tableName, user_id)
-  res.json(userById)
-      
+  const user = await getById(databaseName, tableName, user_id);
+  res.json(
+    user ?? {
+      success: false,
+      message: "User does not exist",
+    }
+  );
 };
 
 //update
-export const updateUser = async(req, res) => {
+export const updateUser = async (req, res) => {
   let user_id = req.params.user_id;
-  const update_user = await updateUserModel(databaseName, tableName, user_id, req.body)
-    let data = {
-      success: true,
-      message: "User successfully updated",
-    };
-    res.json(data);
+  const { replaced } = await updateById(
+    databaseName,
+    tableName,
+    user_id,
+    req.body
+  );
+  res.json(
+    replaced
+      ? {
+          success: true,
+          message: "User successfully updated",
+        }
+      : {
+          success: false,
+          message: "No User to update",
+        }
+  );
 };
 
 //delete user
 export const deleteUser = async (req, res) => {
   let user_id = req.params.user_id;
-  const delete_user = await deleteUserModel(databaseName, tableName, user_id)
-    let data = {
-      success: true,
-      message: "User successfully deleted",
-    };
-    res.json(data);
+  const { deleted } = await deleteById(databaseName, tableName, user_id);
+  res.json(
+    deleted
+      ? {
+          success: true,
+          message: "User successfully deleted",
+        }
+      : {
+          success: false,
+          message: "No user to deleted",
+        }
+  );
 };
 
 //filter
 export const filterUser = async (req, res) => {
-  const filter = await filterUserModel(databaseName, tableName, req.body)
+  const filter = await getByFilter(databaseName, tableName, req.body);
   let data = {
     filter,
     success: true,
     message: "Filtered!",
   };
   res.json(data);
-}
+};

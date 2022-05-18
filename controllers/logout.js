@@ -6,5 +6,5 @@ app.use(cookieParser());
 
 export const logoutUser = (req, res) => {
   res.clearCookie("access_token");
-  res.send("Logout Successful");
+  res.send("Logout Successfully");
 };
